@@ -44,7 +44,7 @@ export default function App() {
                 <BookOpen size={24} />
               </div>
               <div>
-                <h1 className="font-bold text-xl text-slate-800">Dzikir Daily</h1>
+                <h1 className="font-bold text-xl text-slate-800 notranslate" translate="no">Dzikir Daily</h1>
                 <p className="text-xs text-slate-500 font-medium">Panduan Zikir Sesuai Sunnah</p>
               </div>
             </div>

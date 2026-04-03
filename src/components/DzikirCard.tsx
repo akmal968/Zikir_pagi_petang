@@ -24,15 +24,16 @@ export default function DzikirCard({ item, index }: Props) {
       
       <div className="mb-6">
         <p 
-          className="text-right text-3xl leading-relaxed font-arabic text-slate-800 mb-4 select-all"
+          className="text-right text-3xl leading-relaxed font-arabic text-slate-800 mb-4 select-all notranslate"
           dir="rtl"
+          translate="no"
         >
           {item.arab}
         </p>
       </div>
 
       <div className="space-y-3">
-        <p className="text-emerald-600 italic text-sm leading-relaxed">
+        <p className="text-emerald-600 italic text-sm leading-relaxed notranslate" translate="no">
           {item.latin}
         </p>
         <p className="text-slate-600 text-sm leading-relaxed">
